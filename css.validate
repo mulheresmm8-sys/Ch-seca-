@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero {
+  background: linear-gradient(135deg, #5fa86e, #3d7d4c);
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+}
+
+.btn-quiz, .btn-comprar {
+  background: #ffcc00;
+  padding: 14px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #222;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.beneficios, .provas, .call {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+}
+
+.beneficios li {
+  padding: 8px 0;
+  font-size: 1.2rem;
+}
+
+.prova {
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  font-size: 0.9rem;
+}
